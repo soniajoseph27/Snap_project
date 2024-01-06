@@ -1,0 +1,61 @@
+/* Navbar.css */
+
+
+
+  .navbar-brand img {
+    width: 120px;
+  }
+  
+ 
+  .navbar-toggler-icon {
+    color: #000; 
+  }
+  
+  .navbar-nav .dropdown-toggle::after {
+    display: none;
+    content: url('../assets/icon-arrow-down.svg'); 
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-nav .nav-link {
+    color: #333; 
+    margin-right: 10px; 
+  }
+  
+
+  .navbar-nav .nav-item.active .nav-link {
+    color: #007bff; 
+  }
+  
+
+  .dropdown-menu .dropdown-item {
+    color: #333; 
+  }
+  
+ 
+  
+  .navbar-nav .btn-register {
+    margin-left: 10px;
+    background-color: none; 
+    border: 1px solid hsl(0, 0%, 41%);
+    border-radius: 17px;
+  }
+
+
+
+
+  @media (max-width: 375px) {
+    .navbar-brand img {
+      max-width: 100%;
+    }
+  } 
+
+   @media (min-width: 1440px) {
+    .navbar-brand img {
+      max-width: 150px; 
+    } 
+  }
+  
+
+  
+  
